@@ -121,17 +121,16 @@ header {
 }
 
 /************* MAIN ****************/
-section .box:nth-child(even) {
+section:nth-child(even) {
   background-color: lightgray;
 }
 
-section .content {
+.content {
   padding: 30px 0;
 }
 
 .image-content, .text-content {
   float: left;
-  /*display: inline-block;*/
 }
 
 .image-content {
@@ -142,7 +141,7 @@ section .content {
 
 .text-content {
   width: 30%;
-  text-align: center;
+  text-align: left;
   vertical-align: middle;
 }
 
