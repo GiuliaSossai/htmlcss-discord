@@ -129,21 +129,24 @@ section:nth-child(even) {
   padding: 100px 20px;
 }
 
-.image-content, .text-content {
+.image-content, .text-content, .blank {
   float: left;
 }
 
 .image-content {
-  width: 60%;
-  padding-right: 5%;
+  width: 55%;
   vertical-align: middle;
 }
 
+.blank {
+  width: 10%;
+  min-height: 400px;
+}
+
 .text-content {
-  width: 40%;
+  width: 35%;
   text-align: left;
   vertical-align: middle;
-  padding: 40px 0;
 }
 
 section h2 {
