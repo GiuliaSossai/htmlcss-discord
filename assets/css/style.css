@@ -126,7 +126,7 @@ section:nth-child(even) {
 }
 
 .content {
-  padding: 70px 0;
+  padding: 100px 20px;
 }
 
 .image-content, .text-content {
@@ -134,24 +134,26 @@ section:nth-child(even) {
 }
 
 .image-content {
-  width: 70%;
+  width: 60%;
   padding-right: 5%;
   vertical-align: middle;
 }
 
 .text-content {
-  width: 30%;
+  width: 40%;
   text-align: left;
   vertical-align: middle;
+  padding: 40px 0;
 }
 
 section h2 {
   font-size: 50px;
+  padding-bottom: 30px;
 }
 
 section p {
-  font-size: 20px;
-  line-height: 40px;
+  font-size: 18px;
+  line-height: 30px;
 }
 
 /*fourth section*/
