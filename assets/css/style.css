@@ -145,14 +145,25 @@ section:nth-child(even) {
   vertical-align: middle;
 }
 
-.text-content h2 {
+section h2 {
   font-size: 50px;
 }
 
-.text-content p {
+section p {
   font-size: 20px;
   line-height: 40px;
 }
+
+.textarea h2, .textarea p {
+  text-align: center;
+}
+
+.big-image {
+  margin: 0 auto;
+  width: 90%
+}
+
+
 
 
 
