@@ -154,13 +154,25 @@ section p {
   line-height: 40px;
 }
 
-.textarea h2, .textarea p {
+/*fourth section*/
+.textarea h2, .textarea p, .star-box {
   text-align: center;
 }
 
 .big-image {
   margin: 0 auto;
   width: 90%
+}
+
+h4 {
+  margin-bottom: 50px;
+}
+
+.btn.big.blue {
+  color: white;
+  background-color: #628BF7;
+  width: auto;
+  margin: 0 auto;
 }
 
 
