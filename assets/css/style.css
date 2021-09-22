@@ -179,10 +179,7 @@ h4 {
 footer {
   min-height: 500px;
   background-color: #23272A;
-}
-
-footer.container{
-  padding; 30px 0;
+  padding: 60px 0;
 }
 
 /*footer menu*/
@@ -202,6 +199,11 @@ footer.container{
   color: #5865F2;
 }
 
+#icon {
+  float: left;
+  color: white;
+}
+
 .footer-menu {
   width: 80%;
   padding-left: 20px;
@@ -215,10 +217,17 @@ footer.container{
 
 .first-list li {
   display: inline-block;
+  color: #5865F2;
+  padding: 0 5%;
+}
+
+.first-list li ul {
+  vertical-align: baseline;
 }
 
 .second-list li {
   display: block;
+  color: white;
 }
 
 /*footer logo and button*/
